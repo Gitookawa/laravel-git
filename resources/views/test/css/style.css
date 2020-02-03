@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body {
+        margin: 0;
+        padding:0;
+        background-color: #cccccc;
+        font-size: 15px;/*文字の大きさ*/
+        line-height:2;/*行間*/
+    }
+
+#index {
+            background-image:url(../gazou/aaa.jpg);
+            background-repeat: no-repeat;
+            background-position center top;
+            background-attachment:fixed;
+            background-size; cover;
+            background-size: 100% auto;
+}
+
+#wrap {
+           clear: both;
+    /*     background-color: #ffffff;*/
+    /*     margin-top: 220px;*/
+           background-color:#efe6e6;
+           margin-top: 200px;/* 改変前*/
+         /* padding:400px 0;/*　改変前*/
+         padding:1000px 0; /* 改変後*/
+}
+
